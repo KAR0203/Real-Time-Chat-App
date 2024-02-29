@@ -1,0 +1,46 @@
+.Chat {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling for the message container */
+  }
+  
+  .MessageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between messages */
+  }
+  
+  .InputContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .InputContainer input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .InputContainer button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .InputContainer button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message.css */
+  
+  

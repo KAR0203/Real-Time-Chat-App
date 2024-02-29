@@ -1,0 +1,13 @@
+.Message {
+    max-width: 70%; /* Limit message width */
+    align-self: flex-start; /* Align user messages to the left */
+    background-color: #dcf8c6; /* Light green for user messages */
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .Message.sent {
+    align-self: flex-end; /* Align sent messages to the right */
+    background-color: #e5e5ea; /* Light grey for sent messages */
+  }
